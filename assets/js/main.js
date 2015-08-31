@@ -64,8 +64,8 @@
 			// 		'</div>'
 			// 	)
 			// 		.appendTo($body);
-			//
-			// // Navigation Panel.
+			// //
+			// Navigation Panel.
 			// 	$(
 			// 		'<div id="navPanel">' +
 			// 			'<nav>' +
@@ -84,11 +84,11 @@
 			// 			target: $body,
 			// 			visibleClass: 'navPanel-visible'
 			// 		});
-
-			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
-				// if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-				// 	$('#titleBar, #navPanel, #page-wrapper')
-				// 		.css('transition', 'none');
+			//
+			// // Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
+			// 	if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
+			// 		$('#titleBar, #navPanel, #page-wrapper')
+			// 			.css('transition', 'none');
 
 		// Parallax.
 		// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).

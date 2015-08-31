@@ -3470,6 +3470,9 @@
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
+		#topmenu{
+			display: none;
+		}
 
 		/* Basic */
 
@@ -3482,6 +3485,9 @@
 /* Large */
 
 	@media screen and (max-width: 1280px) {
+		#topmenu{
+			display: none;
+		}
 
 		/* Basic */
 
@@ -3533,6 +3539,9 @@
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+		#topmenu{
+			display: none;
+		}
 
 		/* Basic */
 
@@ -3619,6 +3628,9 @@
 	}
 
 	@media screen and (max-width: 736px) {
+		#topmenu {
+			display: block;
+		}
 
 		/* Basic */
 
