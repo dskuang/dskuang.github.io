@@ -1,13 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
+.
 /* Reset */
+
+
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -56,6 +54,15 @@
 		box-sizing: border-box;
 	}
 
+.doc-icon{
+	background-size: 31px;
+  background-image: url("../../images/docicon.png");
+  width: 31px;
+  height: 35px;
+  display: block;
+  margin-top: 18px;
+  background-position: 0px 35px;
+}
 
 
 /* Containers */
@@ -3468,6 +3475,10 @@
 				}
 
 /* XLarge */
+@media screen and (max-width: 2080px) {
+	#topmenu{
+		display: none;
+	}
 
 	@media screen and (max-width: 1680px) {
 		#topmenu{
